@@ -17,7 +17,26 @@ inquirer
             name: 'description', 
             message: 'Describe your project.'
         },
-        
+        {
+            type: 'input',
+            name: 'installation', 
+            message: 'What are the installation instructions of your project?'
+        },
+        {
+            type: 'input',
+            name: 'usage', 
+            message: 'What is the usage information on your project?'
+        },
+        {
+            type: 'input',
+            name: 'contributing', 
+            message: 'What are the Contribution Guidelines of your project?'
+        },
+        {
+            type: 'input',
+            name: 'test', 
+            message: 'What are the test instructions for your project?'
+        },
     ])
 
 // // TODO: Create a function to write README file
