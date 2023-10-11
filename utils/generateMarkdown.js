@@ -31,10 +31,10 @@ if (license !== 'None') {
 function generateMarkdown(data) {
   console.log(data)
   //write code here
-  var dataName =`# ${data.name}
-
+  var dataName =`
   ${renderLicenseBadge(data.license)}
-  
+  # ${data.name}
+
   ## Description
 
   ${data.description}
