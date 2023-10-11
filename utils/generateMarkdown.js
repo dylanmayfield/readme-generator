@@ -59,7 +59,13 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  ${data.questions}`
+  ${data.questions}
+  
+  ${renderLicenseSection(data.license)}
+  ${renderLicenseBadge(data.license)}
+  ${renderLicenseLink(data.license)}`
+
+
   return dataName; 
 
 }
