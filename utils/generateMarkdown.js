@@ -62,10 +62,6 @@ function generateMarkdown(data) {
   ${data.questions}`
   return dataName; 
 
-  renderLicenseBadge();
-renderLicenseLink();
-renderLicenseSection();
-
 }
 
 module.exports = generateMarkdown;
