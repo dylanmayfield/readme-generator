@@ -1,5 +1,7 @@
 # 1
 
+  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+  
   ## Description
 
   2
@@ -28,6 +30,7 @@
 
   8
   
-  undefined
+  ## License 
+    This project is licensed under the MIT license.
   
-  
+* [License](#license)

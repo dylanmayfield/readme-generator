@@ -70,6 +70,16 @@ function init() {
                 name: 'license',
                 message: 'What license would you like to use?',
                 choices: ['MIT', 'Apache', 'GPL', 'None']
+            },
+            {
+                type: 'input',
+                name: 'github',
+                message: 'What is your github username?'
+            },
+            {
+                type: 'input',
+                name: 'email',
+                message: 'What is your email address?'
             }
         ]).then((answers) => {
             console.log(answers)

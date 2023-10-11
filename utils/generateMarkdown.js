@@ -33,6 +33,8 @@ function generateMarkdown(data) {
   //write code here
   var dataName =`# ${data.name}
 
+  ${renderLicenseBadge(data.license)}
+  
   ## Description
 
   ${data.description}
@@ -62,7 +64,6 @@ function generateMarkdown(data) {
   ${data.questions}
   
   ${renderLicenseSection(data.license)}
-  ${renderLicenseBadge(data.license)}
   ${renderLicenseLink(data.license)}`
 
 
