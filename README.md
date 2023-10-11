@@ -1,34 +1,34 @@
-# 1
 
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
-  
+  # Readme Generator
+
   ## Description
 
-  2
+  Description of project goes here
 
   ## Table of Contents
 
-  3
+  table of contents go here
 
   ## Installation
 
-  4
+  installation instructions go here
 
   ## Usage
 
-  5
+  usage information here
 
   ## Contributing
 
-  6
+  contribution guidlines goes here
 
   ## Test
 
-  7
+  test instructions here
 
   ## Questions
 
-  8
+  questions go here
   
   ## License 
     This project is licensed under the MIT license.
